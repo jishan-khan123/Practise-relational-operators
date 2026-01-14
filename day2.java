@@ -113,25 +113,25 @@ public class day2 {
                 break;
         }
                 
-//   traffic light system
+//       traffic light system
 
-System.out.println("Enter  signal button ");
-int traffic= sc.next().charAt(0);
-switch (traffic) {
-    case 'r':
-    case 'y':
-    System.out.println("stop");
-    break;
-    case 'b':
-    case 'R':
+           System.out.println("Enter  signal button ");
+           int traffic= sc.next().charAt(0);
+           switch (traffic) {
+          case 'r':
+          case 'y':
+         System.out.println("stop");
+        break;
+        case 'b':
+       case 'R':
         System.out.println("Ready");
         break;
-    case 'Y':
-    case 'B':
+        case 'Y':
+       case 'B':
         System.out.println("Go");
-    break;
+        break;
 
-    default:System.out.println("invalid signal");
+            default:System.out.println("invalid signal");
         break;
 }
         
@@ -153,7 +153,7 @@ switch (ammount) {
     default:System.out.println("invalid user");
         break;
 }
-*/
+
 // simple 4 digit otp generate your mobile  number in java
 Random rand=new Random();
 
@@ -163,9 +163,19 @@ int otp = 1000 + rand.nextInt(9999);
 System.out.println("OTP sent to your mobile number ");
 System.out.println("your otp is " + otp);
 System.out.println( number);
-
-
+*/
+System.out.println("enter first num");
+int m=sc.nextInt();
+System.out.println("enter second number");
+int n=sc.nextInt();
+if (m>n && n<m) {
+    System.out.println("hey");
+}
+else{
+    System.out.println("hello");
+}
 
 
     }
-}
+    }
+
